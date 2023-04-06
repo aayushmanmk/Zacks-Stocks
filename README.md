@@ -2,7 +2,7 @@ Zacks Stocks
 ---
 
 
-A program to get information from zacks written in batch:
+A program to get information from https://www.zacks.com about the 503 stocks and store them into .dat files written in batch:
 
 
 ```
@@ -233,3 +233,7 @@ do
 done
 
 ```
+
+
+
+This information can be put into an sql database easily by adding the "INSERT INTO TABLE_NAME VALUES();" command and can be used for easy selectiion of data.
